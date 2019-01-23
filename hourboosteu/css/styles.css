@@ -56,19 +56,32 @@ body,html{
     font-family: 'Montserrat Regular', sans-serif;
 }
 
-.about{
+.ready{
     letter-spacing: 15px;
     text-align: center;
 }
-.about .bold{
+.ready .bold{
     font-family: 'Montserrat Bold', sans-serif;
 }
 
-.about .light{
+.ready .light{
     font-family: 'Montserrat Light', sans-serif;
 }
     
-.about p{
+.ready a{
+        font-family: 'Montserrat Bold', sans-serif;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 64px;
+}
+
+.ready p:hover{
+    color: #212529;
+}
+
+.button{
+    font-size: 48px;
+    color:white;
+}
+a:hover{
+    color: black;
 }
